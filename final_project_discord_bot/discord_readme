@@ -1,0 +1,13 @@
+'''
+Documentation
+This bot connects to the 'Parker_D_bot_lab_server' on discord
+This bot responds to questions about the weather specifically
+"What is the weather in Charlottesville" (or any other city you choose)
+"Is it windy in Charlottesville"
+"When is the sunset today in Charlottesville"
+
+This bot gathers this information from openweathermap.org API which provides information about weather in cities worldwide
+A series of functions address each aforementioned question and prepare a response for the discord bot to send
+The discord bot connects to the server and using on_message() it reacts to messages in the server. Using a series of if then statements, the proper response is sent to the user's question
+
+'''
